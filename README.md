@@ -1,2 +1,2 @@
-# Portfolio_ITG
-HTML and CSS task
+# Demo
+[Preview the design here](https://ayman-dwikat.github.io/Portfolio_ITG/)

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Ayman Dwikat's portfolio showcasing web development projects."
+    />
+    <meta
+      name="keywords"
+      content="Ayman Dwikat, web developer, portfolio, projects"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/logo.png" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="main-header" id="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="assets/logo.png" width="55x" height="55px" alt="" />
+          AYMAN
+        </a>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+        <nav id="nav-menu">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#footer">Footer</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <ul class="social">
+          <li>
+            <a
+              href="https://www.facebook.com/profile.php?id=100087475462339"
+              target="_blank"
+              class="facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ayman-dwikat-911a2b305/"
+              target="_blank"
+              class="linkedin"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/Ayman-Dwikat"
+              target="_blank"
+              class="github"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+        </ul>
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h2 class="title">
+            I'm
+            <span>AYMAN DWIKAT<br />a </span>
+            Web Developer
+          </h2>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Ayman Dwikat, a skilled
+            and creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects, ranging from personal blogs to e-commerce platforms.
+          </p>
+          <div class="btns">
+            <button onclick="window.open('assets/CV.pdf')" class="cv_btn">
+              Download CV
+            </button>
+            <button onclick="location.href='./#contact'" class="contct_btn">
+              Contact Info
+            </button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/avatar.png" alt="Profile Picture" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section class="portfolio" id="projects">
+      <div class="heading">
+        <p>Browse My Recent</p>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="container portfolio-grid">
+        <div class="project">
+          <img src="assets/project1.png" alt="Avatar" />
+          <div class="text">
+            <h4><b>Bondi THEME</b></h4>
+            <p>Design using HTML, CSS and Bootstrap</p>
+          </div>
+          <div class="btns">
+            <button
+              onclick="window.open('https://ayman-dwikat.github.io/Bootstrap_Design_One/', '_blank')"
+              class="live_btn"
+            >
+              Live Demo
+            </button>
+            <button
+              onclick="window.open('https://github.com/Ayman-Dwikat/Bootstrap_Design_One', '_blank')"
+              class="github_btn"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="assets/project2.png" alt="Avatar" />
+          <div class="text">
+            <h4><b>XO AI</b></h4>
+            <p>
+              XO game for two players or against the Artificial Intelligence
+            </p>
+          </div>
+          <div class="btns">
+            <button
+              onclick="window.open('https://ayman-dwikat.github.io/XO_AI/', '_blank')"
+              class="live_btn"
+            >
+              Live Demo
+            </button>
+            <button
+              onclick="window.open('https://github.com/Ayman-Dwikat/XO_AI', '_blank')"
+              class="github_btn"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="assets/project3.png" alt="Avatar" />
+          <div class="text">
+            <h4><b>E-commerce</b></h4>
+            <p>E-commerce usign react.js and bootstrap with fake APIs</p>
+          </div>
+          <div class="btns">
+            <button
+              onclick="window.open('https://ayman-ecommerce.netlify.app/', '_blank')"
+              class="live_btn"
+            >
+              Live Demo
+            </button>
+            <button
+              onclick="window.open('https://github.com/Ayman-Dwikat/E-commerce', '_blank')"
+              class="github_btn"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="assets/project4.png" alt="Avatar" />
+          <div class="text">
+            <h4><b>Personal Blog</b></h4>
+            <p>Design using HTML and CSS only with Udacity company</p>
+          </div>
+          <div class="btns">
+            <button
+              onclick="window.open('https://ayman-dwikat.github.io/Personal_Blog/', '_blank')"
+              class="live_btn"
+            >
+              Live Demo
+            </button>
+            <button
+              onclick="window.open('https://github.com/Ayman-Dwikat/Personal_Blog', '_blank')"
+              class="github_btn"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="assets/project5.png" alt="Avatar" />
+          <div class="text">
+            <h4><b>Kasper TEMPLATE</b></h4>
+            <p>TEMPLATE Design using HTML and CSS only</p>
+          </div>
+          <div class="btns">
+            <button
+              onclick="window.open('https://ayman-dwikat.github.io/HTML_And_CSS_Template_Two/', '_blank')"
+              class="live_btn"
+            >
+              Live Demo
+            </button>
+            <button
+              onclick="window.open('https://github.com/Ayman-Dwikat/HTML_And_CSS_Template_Two', '_blank')"
+              class="github_btn"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="assets/project6.png" alt="Avatar" />
+          <div class="text">
+            <h4><b>iPhone Design</b></h4>
+            <p>Design using HTML, CSS and Javascript</p>
+          </div>
+          <div class="btns">
+            <button
+              onclick="window.open('https://ayman-dwikat.github.io/iPhone/', '_blank')"
+              class="live_btn"
+            >
+              Live Demo
+            </button>
+            <button
+              onclick="window.open('https://github.com/Ayman-Dwikat/iPhone', '_blank')"
+              class="github_btn"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact" id="contact">
+      <div class="heading">
+        <p>Get in Touch</p>
+        <h2>Contact Me</h2>
+      </div>
+
+      <div class="container">
+        <form>
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+                required
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email.."
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="palestine">Palestine</option>
+                <option value="jordan">Jordan</option>
+                <option value="syria">Syria</option>
+                <option value="egypt">Egypt</option>
+                <option value="yamen">Yamen</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="message">Message</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write something.."
+                style="height: 200px"
+              ></textarea>
+            </div>
+          </div>
+
+          <br />
+          <div class="row">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer" id="footer">
+      <div class="container">
+        <div class="box">
+          <a href="#" class="logo">
+            <img src="assets/logo.png" width="55x" height="55px" alt="" />
+            AYMAN
+          </a>
+          <ul class="social">
+            <li>
+              <a
+                href="https://www.facebook.com/profile.php?id=100087475462339"
+                target="_blank"
+                class="facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ayman-dwikat-911a2b305/"
+                target="_blank"
+                class="linkedin"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Ayman-Dwikat"
+                target="_blank"
+                class="github"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <ul class="links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <div class="line">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <div class="info">
+              Palestine, Nablus, Inside The Sphinx, Room Number 220
+            </div>
+          </div>
+          <div class="line">
+            <i class="far fa-clock fa-fw"></i>
+            <div class="info">Business Hours: From 10:00 To 18:00</div>
+          </div>
+          <div class="line">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <div class="info">
+              <span>+970223456789</span>
+              <span>+970198765432</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="copyright">
+        <span style="font-size: 18px">&#8482;</span>
+        2024 My Portfolio. All
+        <span style="font-size: 18px">&#169;</span>
+        Rights Reserved.
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

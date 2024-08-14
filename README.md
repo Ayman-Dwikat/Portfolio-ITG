@@ -14,4 +14,4 @@ This project is a responsive portfolio page designed to showcase a developer's p
 - Includes optional enhancements like hover effects and a sticky navigation bar with section highlighting.
 
 ### Demo
-[Preview the design here](https://ayman-dwikat.github.io/Portfolio_ITG/)
+- [Preview the design here](https://ayman-dwikat.github.io/Portfolio_ITG/)

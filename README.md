@@ -13,6 +13,5 @@ This project is a responsive portfolio page designed to showcase a developer's p
 - Optimized for mobile, tablet, and desktop devices using CSS Grid, Flexbox, and media queries.
 - Includes optional enhancements like hover effects and a sticky navigation bar with section highlighting.
 
-
-# Demo
+### Demo
 [Preview the design here](https://ayman-dwikat.github.io/Portfolio_ITG/)

@@ -1,4 +1,4 @@
-## Responsive Portfolio Page
+## Portfolio Page
 
 ### Overview
 This project is a responsive portfolio page designed to showcase a developer's projects. The page includes a header, an about section, a portfolio gallery, and a contact form, all built using HTML and CSS with a focus on modern web design and responsiveness.
